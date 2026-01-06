@@ -135,16 +135,11 @@ footer>p {
     text-align: center;
     background-color: #045f2a;
     padding: 20px;
-}
-.video > iframe{
-    margin: 0px;
-}
-img{
-   text-align: center;
-}
-.video{
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+img{
+   text-align: center;
 }
