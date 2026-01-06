@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'h1';
+    src: url('fontes/idroid.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+
+    background-color:#F6F4CA ;
+    margin: 0px;
+}
+
+header {
+    background-color: #199951;
+    font-family: monospace;
+    color: white;
+    padding: 2px;
+    margin: 0px;
+}
+
+nav#titulo {
+    text-align: center;
+    font-size: 2em;
+}
+
+nav#titulo>p {
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav>a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    text-align: left;
+}
+
+
+main {
+    margin: 0px 100px auto;
+}
+main {
+  width: 100%;
+  max-width: 800px; 
+  min-width: 280px ;
+  margin: 0px auto;
+  padding: 0px;        
+}
+
+
+section#noticias {
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+article>h1 {
+    font-family: 'h1', serif;
+    color: #045f2a;
+    font-weight: normal;
+
+}
+
+article>h2 {
+    font-family: 'h1', serif;
+    background: linear-gradient(to right, #B3FED1, white);
+    font-weight: normal;
+}
+
+article#h3 {
+    background-color: #B3FED1;
+    padding: 0px 0px 2px 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+article#h3>h3 {
+    background-color: #045f2a;
+    color: white;
+    padding: 0px 4px;
+
+
+}
+
+article#h3>p {
+    text-indent: 1cm;
+    margin: 6px;
+}
+
+
+footer {
+    background-color: #045f2a;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin: 0px;
+}
+
+footer>p {
+    margin: 0px;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px 0px 10px;
+    font-size: 13px;
+}
+
+.listas ul {
+    list-style: none;
+    /* remove a bolinha */
+    padding: 0;
+}
+
+.listas li::before {
+    content: "✓ ";
+    color: rgb(2, 3, 2);
+    font-weight: bold;
+}
+
+.link{
+    background-color: #3ba16771;
+    text-decoration: none;
+    color: black;
+    
+}
+.video{
+    text-align: center;
+    background-color: #045f2a;
+    padding: 20px;
+}
+.video > iframe{
+    margin: 0px;
+}
