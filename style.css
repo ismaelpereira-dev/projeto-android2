@@ -139,3 +139,6 @@ footer>p {
 .video > iframe{
     margin: 0px;
 }
+img{
+   text-align: center;
+}
